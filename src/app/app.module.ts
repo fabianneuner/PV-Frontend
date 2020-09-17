@@ -13,6 +13,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './home/home.component';
 import { PowerComponent } from './power/power.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {ChartsModule} from 'ng2-charts';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    ChartsModule,
     HttpClientModule,
     BrowserAnimationsModule,
     MatToolbarModule,

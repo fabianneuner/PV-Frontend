@@ -1,2 +1,11 @@
-<p>power works! powers: </p>
-<p *ngFor="let power of powers">{{power}}</p>
+<h2>Power by time:</h2>
+<div>
+  <canvas baseChart height="100%"
+          [chartType]="'line'"
+          [datasets]="powerChart"
+          [labels]="chartLabels"
+          [colors]="lineChartColors"
+          [options]="chartOptions"
+          [legend]="true">
+  </canvas>
+</div>

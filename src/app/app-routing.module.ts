@@ -6,7 +6,7 @@ import { PowerComponent } from './power/power.component';
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full'},
   { path: 'home', component: HomeComponent },
-  { path: 'about', component: PowerComponent },
+  { path: 'power', component: PowerComponent },
 ];
 
 @NgModule({
